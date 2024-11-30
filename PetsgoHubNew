@@ -47,6 +47,6 @@ if _G.LoadingScreen ~= true then
     TextLabel_2.TextWrapped = true
 end
 
-_G.LoadingScreen = false
+_G.LoadingScreen = true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DARKRel13/PetsGOHubs/refs/heads/main/PetsgoHubScript"))()
